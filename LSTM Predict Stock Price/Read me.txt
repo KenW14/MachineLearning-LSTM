@@ -16,7 +16,6 @@ How to Use the Website:
 7. The program will display the evaluation results along with relevant metrics.
 
 The libraries used in the code are:
-
 1. Flask
 2. TensorFlow/Keras
 3. scikit-learn
