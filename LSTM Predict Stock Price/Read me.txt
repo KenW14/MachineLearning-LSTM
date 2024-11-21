@@ -1,0 +1,30 @@
+How to Run the Program:  
+1. Ensure Python 3.12.0 is installed.  
+2. Extract the `.rar` file containing the project.  
+3. Open Command Prompt and activate the Flask environment by running: 'env\Scripts\activate'
+4. Navigate to the website folder using: 'cd LSTM Predict Stock Price'
+5. Run the program with: 'flask run'
+6. Once the program is running, click the link displayed in the Command Prompt or open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in a browser.  
+
+How to Use the Website:  
+1. Enter the stock symbol you want to analyze.  
+2. Specify the start and end dates for the data range.  
+3. Click the "Get Stock Data" button to retrieve stock data.  
+4. Once the data is displayed, select the time interval for prediction.  
+5. Click the "Predict Stock Price" button to perform the stock price prediction.  
+6. After the prediction is successful, click the "Evaluate Model" button to evaluate the model.  
+7. The program will display the evaluation results along with relevant metrics.
+
+The libraries used in the code are:
+
+1. Flask
+2. TensorFlow/Keras
+3. scikit-learn
+4. yfinance
+5. NumPy
+6. Pandas
+7. Matplotlib
+8. SciPy
+9. Datetime
+10. Base64
+11. io
